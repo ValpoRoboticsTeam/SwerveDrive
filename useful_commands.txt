@@ -1,0 +1,4 @@
+sudo ip link add dev vcan0 type vcan 
+sudo ifconfig vcan0 up
+
+cansend vcan0 00000000#FFFFFFFFFFFFFFFF
